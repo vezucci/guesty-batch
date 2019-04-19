@@ -2,6 +2,8 @@ const express = require('express');
 const request = require('request-promise-native');
 const bodyParser = require('body-parser');
 
+// just and example
+// use it as body for your POST request
 const bodyFormat = {
   "endpoint": {
     "url": "https://guesty-user-service.herokuapp.com/user/{userId}",
